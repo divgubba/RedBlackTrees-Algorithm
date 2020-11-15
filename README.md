@@ -1,20 +1,30 @@
 # RedBlackTree Algorithm
+- Each node of tree has a color :red or black, associated with it in addition to its key and left and    
+  right children
+- Red Black Tree class uses generics, taking in only String and Integer objects,
+  and places them in pre-order traversal in the Red Black Tree.
+- The class has three methods: insert, contains, and toString methods
+- insert method takes in element and places in correct place, while also using
+  helper methods to rebalance the Red black tree to check all violations of RBT properties
+  returns false if there is duplicate, and true if inserted
+  for Insert operation if there is not data assigned to it, will print out “Error in Line: Insert”
+- contains method takes in object to check if tree contains node
+  returns true for whether tree contains element that is compared equal to object passed
+  returns false if given object is null
+- The output is given as “true” or “false”, not upper case letter “True” or “False”
+- toString method used to print tree when called
 
-- IDE used: IntelliJ IDEA, compiled .java files through IntelliJ, executed through terminal on MacOS, using java command in “Execute command line - “ mentioned in the README.txt file 
 - Arguments taken in command line arguments are the full part for input and output file. 
-- Version of java used is java 8
 - Arguments for file names are passed in through command line from intelliJ or through terminal 
-- All methods should work normally
-- Program works for test cases given in instructions
-- output is given as “true” or “false”, not upper case letter “True” or “False”
-- Program works for test cases provided in the instructions, for Insert operation if there is not data assigned to it, will print out “Error in Line: Insert”
+
 - Error checking is done for if the file exists, if output file does not exist, will create one.
 - Error checking also done for whether 2 arguments are passed in. 
 
+# Tech Used
+- IDE used: IntelliJ IDEA, compiled .java files through IntelliJ, executed through terminal on MacOS, using java command in “Execute command line - “ mentioned in the README.txt file 
+- Version of java used is java 8
 
-Execute this command line - 
-java Main "/Users/dgubba/IntelliJ-JavaProjects/Project4RedBlackTrees/RBTInpFile.txt" "/Users/dgubba/IntelliJ-JavaProjects/Project4RedBlackTrees/RBTOutputFile.txt"
-
+# Tests
 SAMPLE RUNS
 ————————————————————————————————————
 Test 1
@@ -137,3 +147,7 @@ true
 57 -24 *-42 *1 60 
 Error in line: jd;klfjdk;f
 ————————————————————————————————————
+
+# How to run
+Execute this command line - 
+java Main "/Users/dgubba/IntelliJ-JavaProjects/Project4RedBlackTrees/RBTInpFile.txt" "/Users/dgubba/IntelliJ-JavaProjects/Project4RedBlackTrees/RBTOutputFile.txt"
