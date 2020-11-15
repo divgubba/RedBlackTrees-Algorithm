@@ -24,10 +24,7 @@
 - IDE used: IntelliJ IDEA, compiled .java files through IntelliJ, executed through terminal on MacOS, using java command in “Execute command line - “ mentioned in the README.txt file 
 - Version of java used is java 8
 
-# Tests
-SAMPLE RUNS
-————————————————————————————————————
-Test 1
+# Test 1
 Input File:
 String
 Insert:Computer
@@ -46,10 +43,10 @@ true
 true
 true
 Computer 78.5 Mouse *Keyboard *Tablet 
-————————————————————————————————————
 
-————————————————————————————————————
-Test 2
+
+
+# Test 2
 Input File:
 Integer
 Insert:98
@@ -80,20 +77,18 @@ false
 55 32 *-68 *45 98 *84 *132 
 Error in Line: Insert
 Error in line: hih
-————————————————————————————————————
 
 
-————————————————————————————————————
-Test 3
+
+# Test 3
 Input File:
 Students
 
 Output File:
 Can only accept 2 objects, String or Integer
-————————————————————————————————————
 
-————————————————————————————————————
-Test 4
+
+# Test 4
 Input File:
 String
 Insert:Ana
@@ -118,10 +113,9 @@ true
 true
 false
 Owen *Leo Ana Nick *Maya Pete 
-————————————————————————————————————
 
-————————————————————————————————————
-Test 5
+
+# Test 5
 Input File:
 Integer
 Insert:-42
